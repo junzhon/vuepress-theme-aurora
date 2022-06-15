@@ -47,9 +47,9 @@ module.exports = {
             // path.resolve(__dirname, "../../Aurora-plugin/vuepress-plugin-coze/lib/node/index.js"),
             "vuepress-plugin-coze",
             {
-                appId: '2A2Dyd2AffrnldhwftlEddVn-MdYXbMMI',
-                appKey: 'qHYTbb91iOPLelyC9lpbXxLH',
-                masterKey: 'eUwfvS3luIPnPiHS5SpEhDYr',
+                appId: '8kgcjVQeFaeJLICy5mU7lIEF-MdYXbMMI',
+                appKey: 'M2ivCvetHrWKi3r7cR3gGdBq',
+                masterKey: 'T7Lt1IxyaOXWL6TOLPGgUv4s',
                 //下面这些是可选的
                 avatarPath: '/avatar.jpg',//说说头像url
                 registerPath: '/register', //自定义插件默认提供的注册页面路由，请在前面加上/
@@ -194,7 +194,7 @@ module.exports = {
     lang: 'zh-CN',
 
     //设置运行npm run dev的端口
-    port: 8080,
+    port: 8089,
 
     /*
     * themeConfig是和主题相关的配置项，主题的所有配置，都是在此处进行配置的
@@ -209,23 +209,23 @@ module.exports = {
         navbar: navbar,
 
         //禁用黑夜模式，当前版本未提供
-        darkMode: false,
+        darkMode: true,
 
         //项目地址，会在顶部导航栏和侧边栏显示GitHub的地址
-        repo: "https://github.com/qsyyke/vuepress-theme-aurora",
+        repo: "https://github.com/junzhon/vuepress-theme-aurora",
 
         //自定义GitHub的图标
         repoIconClass: 'aurora-navbar-github',
 
         //md文件的仓库地址
-        docsRepo: 'https://github.com/qsyyke/aurora-docs',
+        docsRepo: 'https://github.com/junzhon/aurora-docs',
 
         /*
         * 站点是否是使用github Actions自动部署，如果你使用github Actions完成自动部署，那么这里一定要为TRUE，为TRUE，假如你把此项目push
         * 到https://github.com/qsyyke/aurora-docs这个仓库中，那么你需要将docsRepo设置为https://github.com/qsyyke/aurora-docs，
         * 那么在文章页面，会根据根据你docsRepo和docsBranch设置正确的edit链接，也就是可以一键打开GitHub仓库中，此篇md文件的编辑
         * */
-        githubActions: false,
+        githubActions: true,
 
         //md文件存放的仓库分支
         docsBranch: 'main',
@@ -459,7 +459,7 @@ module.exports = {
                 ],
             },
             {
-                bgImg: 'http://localhost:8080/bg/763311.jpg',
+                bgImg: 'http://localhost:8089/bg/763311.jpg',
                 bar: true,
                 showTag: false,
                 title: "掌握技能",
@@ -821,9 +821,9 @@ module.exports = {
          * 和vuepress-plugin-coze插件使用同一个应用
          * */
         leanCloud: {
-            appId: '2A2Dyd2AffrnldhwftlEddVn-MdYXbMMI',
-            appKey: 'qHYTbb91iOPLelyC9lpbXxLH',
-            masterKey: 'eUwfvS3luIPnPiHS5SpEhDYr',
+            appId: '8kgcjVQeFaeJLICy5mU7lIEF-MdYXbMMI',
+            appKey: 'M2ivCvetHrWKi3r7cR3gGdBq',
+            masterKey: 'T7Lt1IxyaOXWL6TOLPGgUv4s',
         },
 
 
@@ -853,7 +853,7 @@ module.exports = {
         homeTopText: '置顶',
 
         //侧边栏一句话描述
-        sidebarDesc: '喜欢动漫，Coding目前是一名大三学生,CS专业,坐标西南边陲',
+        sidebarDesc: '喜欢动漫',
 
         /*
         * 下面的是v1.13.0版本的配置
@@ -876,6 +876,6 @@ module.exports = {
         * */
 
         //是否显示关于页面气泡效果 默认开启
-        showAboutPageBubble: false
+        showAboutPageBubble: true
     }
 };
