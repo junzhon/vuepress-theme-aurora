@@ -7,7 +7,7 @@ const {siteInformation} = require("./siteInformation");
 const {message} = require("./message");
 const {donate} = require("./donate");
 module.exports = {
-     base: '/aurora/',
+    base: '/vuepress-theme-aurora/',
     //如果你准备发布到 https://<USERNAME>.github.io/<REPO>/ ，也就是说你的仓库地址是 https://github.com/junzhon/aurora ，则将 base 设置为 "/<REPO>/"。
 
     /*
@@ -23,7 +23,8 @@ module.exports = {
     bundlerConfig: {
 
     },
-
+    //打包
+    assetsPublicPath: './',
     /*
     * 在这里配置插件
     * 插件plugins是一个数组，官方介绍: https://v2.vuepress.vuejs.org/zh/guide/plugin.html
