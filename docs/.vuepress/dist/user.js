@@ -1,0 +1,1 @@
+export let sites=[{title:"learn",url:"https://blog.cco.vin",logo:"https://mangoya.cn/img/footer01.0224244a.png",describe:"learn to forze heart"}];
