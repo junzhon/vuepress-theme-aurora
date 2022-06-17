@@ -1,9 +1,8 @@
 module.exports = {
     //这里是将config.js中的顶部导航栏配置单独提取出来，方便配置
     navbar: [
-       
-        {
-            text: 'life',
+
+        { text: 'life',
             iconClass: 'aurora-navbar-hua2',
             children: [
                 {
@@ -37,7 +36,7 @@ module.exports = {
             ],
         },
         {
-            text: 'page',
+            text: '文章',
             iconClass: 'aurora-navbar-a-ziyuan107',
             children: [
                 {
@@ -60,13 +59,8 @@ module.exports = {
         },
 
         {
-            text: '友情链接',
-            link: '/link',
-            iconClass: 'aurora-navbar-guide'
-        },
-        {
-            text: '案例',
-            link: '/use.html',
+            text: '聊天室',
+            link: 'http://localhost:8090/',
             iconClass: 'aurora-navbar-si-glyph-load'
         },
         {

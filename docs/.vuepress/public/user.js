@@ -1,15 +1,15 @@
 export let sites = [
     {
         //网站标题
-        title: "qsyyke",
+        title: "learn",
 
         //站点链接
         url: "https://blog.cco.vin",
 
         //站点logo
-        logo: "https://ooszy.cco.vin/img/blog-public/avatar.jpg",
+        logo: "https://mangoya.cn/img/footer01.0224244a.png",
 
         //站点描述
-        describe: "I do not follow,i lives is always all you want",
+        describe: "learn to forze heart",
     },
 ]

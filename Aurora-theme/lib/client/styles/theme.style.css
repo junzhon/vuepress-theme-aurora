@@ -1397,19 +1397,19 @@ li {
 }
 
 .footer-layout-center {
+    background-image: url(https://mangoya.cn/img/footer01.0224244a.png);
     position: relative;
     display: flex;
     align-items: center
 }
 
 .footer {
-    color: var(--fontColor);
+    background-image: url(https://mangoya.cn/img/footer01.0224244a.png);
     width: 70%;
     margin: 0 auto;
     position: relative;
     margin-bottom: 3rem;
     border-radius: var(--borderRadius);
-    background-color: rgba(255, 255, 255, var(--opacity))
 }
 
 .footer .footer-item:first-child {

@@ -1,5 +1,5 @@
-module.exports = {
-    //这里是将config.js中的社交信息部分单独提取出来，方便配置
+/*  module.exports = {
+  //这里是将config.js中的社交信息部分单独提取出来，方便配置
     socials: [
         {
             //社交链接
@@ -67,3 +67,4 @@ module.exports = {
         },
     ]
 }
+*/
